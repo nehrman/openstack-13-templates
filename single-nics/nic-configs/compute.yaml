@@ -107,7 +107,6 @@ resources:
                   next_hop: {get_param: EC2MetadataIp}
                 - default: true
                   next_hop: {get_param: ControlPlaneDefaultRoute}
-              -
                 members:
                 -
                   type: interface
