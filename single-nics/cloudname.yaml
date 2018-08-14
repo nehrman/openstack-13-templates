@@ -1,0 +1,3 @@
+parameters_defaults:
+  CloudName: overcloud.example.com
+  DnsServers: ["192.0.2.254"]
